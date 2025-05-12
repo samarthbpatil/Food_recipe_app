@@ -1,0 +1,9 @@
+.innerContainer {
+    flex: 1; /* Allows the container to grow and shrink */
+    min-width: 0; /* Prevents overflow issues */
+    max-width: 50%; /* Optional: Limits the width of each child */
+    box-sizing: border-box; /* Ensures padding and borders are included in width */
+    
+    padding: 10px;
+    margin: 10px;
+}

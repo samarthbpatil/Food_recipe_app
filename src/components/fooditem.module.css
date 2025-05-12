@@ -1,0 +1,45 @@
+.itemContainer{
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    font-family: polysans, sans-serif;
+}
+
+.itemImage{
+    max-width: 100%;
+    height: auto;
+
+}
+
+.itemName{
+    font-size: 1em;
+    font-weight: bold;
+    color: #393e46;
+    text-align: center;
+}
+
+.itemButton{
+    background-color: #f4f80f;
+    color: rgb(7, 109, 19);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.itemButton:active {
+    background-color: #01a548; /* Change to red when clicked */
+    transform: scale(1.1); /* Slightly enlarge the button */
+}
+
+.buttonContainer{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}

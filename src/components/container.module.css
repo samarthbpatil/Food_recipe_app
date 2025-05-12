@@ -1,0 +1,8 @@
+.parentContainer {
+    display: flex; /* Enables flexbox layout */
+    flex-direction: row; /* Aligns children side by side */
+    gap: 20px; /* Adds spacing between children */
+    justify-content: flex-start; /* Aligns children to the left */
+    align-items: flex-start; /* Aligns children vertically */
+    width: 100%; /* Ensures the container spans the full width */
+}
